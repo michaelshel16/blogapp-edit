@@ -1,0 +1,65 @@
+.footer-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    gap:2rem;
+    height:100%;
+    flex-direction: column;
+   
+}
+.footer-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    gap:2rem;
+    border-bottom: 1px solid #E6CF37;
+    padding: 1rem;
+}
+.footer-content-about
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    top:0px;
+    height:100%;
+
+}
+.footer-content-policies
+{
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+    top:0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    gap:2rem;
+
+}
+.footer-content-countries
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    top:0px;
+    align-items: center;
+    gap:2rem;
+    height:100%;
+
+    
+
+}
+.footer-content-social-media
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:2rem;
+
+}

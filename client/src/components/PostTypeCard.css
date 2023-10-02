@@ -1,0 +1,57 @@
+.post-type-card-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:15vw;
+    height:15vw;
+    margin-top:2rem;
+    
+}
+
+.post-type-card-title
+{
+    width:100%;
+    height:30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom: 1px solid #0A1026;
+}
+
+.post-type-card-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:7vw;
+    width:100%;
+    gap:2rem;
+    border-bottom:1px solid #0A1026 ;
+
+}
+
+.post-type-card-image
+{
+    width:20%;
+    height:20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.post-type-card-image img
+{
+    width:100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.post-type-card-content-subtitle
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

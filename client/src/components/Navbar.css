@@ -1,0 +1,91 @@
+.navbar-container
+{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #0A1026;
+   padding: 0;
+   margin: 0;
+}
+
+.navbar-logo
+{
+    width:20%;
+    height:50%;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E6CF37;
+    overflow: hidden;
+
+}
+
+.navbar-logo span
+{
+  cursor: pointer;
+  font-family:"Rubik" ,sans-serif;
+}
+
+
+.navbar-logo img
+{
+  width: 60%;
+  height:40%;
+   
+}
+
+.navbar-authentication{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family:"Rubik" ,sans-serif;
+    color:#E6CF37;
+}
+
+.navbar-specifics
+{
+  display:flex;
+  gap:2rem;
+}
+.navbar-tech
+{
+  color:#E6CF37;
+  cursor: pointer;
+}
+.navbar-business
+{
+  color:#E6CF37;
+  cursor: pointer;
+}
+.navbar-reviews
+{
+  color:#E6CF37;
+  cursor: pointer;
+}
+
+.navbar-login
+{
+  cursor: pointer;
+}
+.navbar-login-user
+{ position: absolute;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  background-color: #E6CF37;
+  color: #0A1026;
+}
+.navbar-register
+{
+  cursor: pointer;
+}
+
+.navbar-logout
+{
+  cursor:pointer;
+}

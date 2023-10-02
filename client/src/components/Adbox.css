@@ -1,0 +1,31 @@
+
+.domain-page-container
+{
+    margin-top: 3rem;
+
+}
+.domain-page-post-title
+{   margin-top: 2rem;
+    border-top: 1px solid #E6CF37;
+    border-bottom: 1px solid #E6CF37 ;
+    padding: 2rem;
+}
+.domain-page-post-subtitle
+{
+    
+    border-bottom: 1px solid #E6CF37;
+    padding:2rem;
+}
+
+.domain-page-post-author
+{
+    padding: 1rem;
+}
+
+.domain-post-image-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}

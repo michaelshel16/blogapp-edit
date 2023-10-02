@@ -1,0 +1,62 @@
+.home-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+
+
+
+
+
+
+.home-page-post
+{   margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    
+}
+.home-page-post-image
+{
+    width: 60%;
+    height: 60%;
+}
+.home-page-post-image img
+{
+    width:100%;
+    height:100%;
+}
+.home-page-post-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.home-page-post-content-title
+{   padding-bottom: 1rem;
+    border-bottom: 1px solid #E6CF37;
+}
+.home-page-post-content-title:hover
+{   padding-bottom: 1rem;
+    border-bottom: 1px solid #E6CF37;
+    cursor:pointer;
+}
+
+
+.home-todays-picks
+{
+    margin-bottom: 2rem;
+}
+.home-todays-picks-slider-card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}

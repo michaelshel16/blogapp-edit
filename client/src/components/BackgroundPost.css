@@ -1,0 +1,51 @@
+.bg-post-container
+{
+    background-color:#E6CF37;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60vh;
+}
+
+.bg-post-read-more
+{
+  display: flex;
+  
+  
+  justify-content: center;
+  align-items: center;
+  width:20%;
+  height:100%;
+}
+.bg-post-read-more:hover
+{
+  color: white;
+  cursor: pointer;
+}
+
+.bg-post-image
+{
+    width:50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-post-image img
+{
+    width:100%;
+    height:100%;
+}
+
+.bg-post-content
+{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    width:20%;
+    height:100%;
+
+}

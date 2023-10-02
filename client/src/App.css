@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.ql-container.ql-snow
+{ background-color: white;
+  height:400px;
+  
+}
+.otp-input-box input
+{ 
+  
+  background-color: whitesmoke;
+  width:4rem;
+  color:black;
+}

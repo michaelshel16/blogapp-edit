@@ -1,0 +1,80 @@
+.register-container
+{   display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap:2rem;
+   
+}
+.register-form
+{
+   width:40%;
+   height:50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #0A1026;
+   border-radius: 2rem;
+}
+.user-details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 100%;
+    gap:1rem;
+
+}
+
+.first-name-input-box ,.last-name-input-box ,.email-input-box ,.password-input-box
+{
+    width:100%;
+}
+.first-name-input-box input ,.last-name-input-box input ,.email-input-box input ,
+.password-input-box input
+{
+    width:100%;
+    display: flex;
+    padding:0.5rem;
+    border-style: none;
+    border-radius: 0.2rem;
+    outline: none;
+}
+.submit-button button
+{
+    padding:0.5rem;
+    background-color: #F3DA38;
+    color: #0A1026;
+    border-style: none;
+    border-radius: 0.1rem;
+
+}
+.submit-button button:hover
+{
+    cursor: pointer;
+}
+
+.errors
+{
+    color:red;
+}
+.google-signup
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.google-signup button
+{
+    
+    color: #0A1026;
+    padding: 0.5rem;
+    border-style: none;
+    outline: none;
+}
+
